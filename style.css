@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color:#4b5320 ;}
+a:link{
+    color:blue;}
+a:visited{
+    color:blueviolet;
+}
+a:hover{
+    color:cadetblue;}        
+*{
+    background-color:rgb #708090;
+    color: rgb(107, 47, 84);
+    
+}
+
+button:hover{
+    border: gray dashed 4px;
+}
+p::first-letter{
+    font-size: x-large;}
+::marker{
+    color: red;
+    }
+::selection{color:red;
+    background-color:yellow ;}
