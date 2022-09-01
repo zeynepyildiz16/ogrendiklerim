@@ -1,26 +1,197 @@
-h1{
+h1 {
     text-align: center;
-    color:#4b5320 ;}
-a:link{
-    color:blue;}
-a:visited{
-    color:blueviolet;
-}
-a:hover{
-    color:cadetblue;}        
-*{
-    background-color:rgb #708090;
-    color: rgb(107, 47, 84);
-    
+    color: #4b5320;
 }
 
-button:hover{
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: cadetblue;
+}
+
+* {
+    background-color: rgb #0cf52b;
+    color: rgb(107, 47, 84);
+    font-family: monospace;
+}
+
+button:hover {
     border: gray dashed 4px;
 }
-p::first-letter{
-    font-size: x-large;}
-::marker{
+
+p::first-letter {
+    font-size: x-large;
+}
+
+::marker {
     color: red;
-    }
-::selection{color:red;
-    background-color:yellow ;}
+}
+
+::selection {
+    color: red;
+    background-color: yellow;
+}
+
+input {
+    background-color: powderblue;
+}
+
+input:focus {
+    background-color: lightpink;
+}
+
+table {
+    background-color: rgb(224, 226, 96)
+}
+
+p {
+    text-indent: 30px;
+
+}
+
+p {
+    text-align: justify;
+    line-height: normal;
+}
+
+.kalın {
+    font-weight: bold;
+}
+
+.büyük {
+    font-size: larger;
+}
+
+.yazıtipi {
+    font-family: Comic Sans MS;
+}
+
+.renk {
+    color: brown;
+}
+
+.egik {
+    font-style: italic;
+}
+
+.büyükharf {
+    font-variant: small-caps;
+}
+
+.kom {
+    text-transform: lowercase;
+}
+
+.cizgi {
+    text-decoration: line-through;
+}
+
+.mesafe {
+    letter-spacing: 8px;
+}
+
+.kelime {
+    word-spacing: 36px;
+}
+
+.foto {
+    background-image: url("indir.jpg");
+    color: black;
+}
+
+.none {
+    list-style-type: none;
+}
+
+.disk {
+    list-style-type: disc;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.numara {
+    list-style-type: decimal;
+}
+
+.lower-alpha {
+    list-style-type: lower-alpha;
+}
+
+.lower-greek {
+    list-style-type: lower-greek;
+}
+
+.lower-latin {
+    list-style-type: lower-latin;
+}
+
+.lower-roman {
+    list-style-type: lower-roman;
+}
+
+.upper-alpha {
+    list-style-type: upper-alpha;
+}
+
+.upper-greek {
+    list-style-type: upper-greek;
+}
+
+.upper-latin {
+    list-style-type: upper-latin;
+}
+
+.upper-roman {
+    list-style-type: upper-roman;
+}
+
+.kutu {
+    border-style: solid dotted double dashed;
+    border-width: 3px 4px 5px 6px;
+    border-color: chocolate yellowgreen darkcyan brown;
+}
+
+.boyut {
+    border-style: solid;
+    border-style: double;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-color: yellow;
+}
+
+.boyut2 {
+    border-style: solid;
+}
+
+.boyut3 {
+
+    border-style: solid;
+    width: 200px;
+    height: 100px;
+}
+
+.boyut4 {
+    border-style: solid;
+    width: 150px;
+    height: 85px;
+}
+
+.boyut5 {
+    border-style: solid;
+    width: 150px;
+    height: 85px;
+}
