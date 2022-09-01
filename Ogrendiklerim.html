@@ -86,7 +86,7 @@
                     href="https://www.kodkampusu.com/html-etiketler/" target="_self">Tıkla Dene</a></p>
         </li>
     </ul>
-    <hr>
+    <hr width="100%" color="#0000F8" size="4">
     <B>
         <strong>
             <li>
@@ -175,7 +175,8 @@
             </table>
         </li>
     </ul>
-    <hr>
+
+    <hr width="100%" color="#ff00ff" size="4">
     <ul>
         <li>
             <h3>Özellik Seçici Kullanımı</h3>
@@ -216,7 +217,7 @@
             mevcuttur.</p><br>
         Lütfen Tarih ve Saat Belirleyiniz :)<input type="datetime-local" name="Tarih Seç" id="Tarih">
     </ul>
-    <hr>
+    <hr width="100%" color="#00ff00" size="4">
     <UL>
         <b>
             <li>
@@ -411,6 +412,7 @@
 
 
     </ul>
+    <hr width="100%" color="#FF0000" size="4">
     <Li><strong>
             <H2>CSS Kutu Modeli</H2>
         </strong></Li>
@@ -503,6 +505,58 @@
         <p class="boyut5">Lorem ipsum dolor sit amet.</p><br>
 
         </div>
+        <li>
+            <strong>Kutu İç Aralık Ayarı(Padding)</strong>
+        </li>
+        <p>Padding kutumuzu genişletmeye yarar.İçerik ile kenarlık arasındaki mesafe padding özelliği ile
+            ayarlanır.Aşağıda kullanım biçimi yer almaktadır.</p>
+        div { <br>
+        padding-top:50px; <br>
+        padding-right:30px; <br>
+        padding-bottom:25px;<br>
+        padding-left:80px;
+        }<br><br>
+        <li><strong>
+                Kutu Sınırı (Margin) Ayarları
+        </li></strong>
+        <p>Kutu kenarı ve diğer nesneler arasındaki mesafeyi belirlemek için margin kullanılır.Şimdi div ve class
+            yardımıyle bir kutu oluşturacağım ardından bu kutunun sınırlarını margin kullanarak belirleyeceğim.Örnek
+            aşağıda</p>
+        <div class="deneme">
+            Lorem ipsum dolor sit amet, consectetur adipisci
+            Lorem, ipsum dolor. Lorem, ipsum.
+            Lorem, ipsum dolor sit amet consectetur adipisicing.
+        </div>
+        <div class="deneme2">
+            Lorem ipsum dolor sit amet consectetur adipisicing. Lorem, ipsum dolor.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, itaque?
+        </div><br>
+        <li><strong>
+                Kutu Boyutunun Sabitlenmesi
+            </strong></li>
+        <p>margin,border ve padding komutları ile verilen değerler içerik boyutuna eklenmektedir.Örneğin,resim 200px ise
+            border:5px ve margin:5px komutundan sonra nesne boyutu 210px olur. </p>
+        <p>Bu tür nesnelerin boyutunu sabit tutmak için box-sizing özelliği kullanılır</p><br>
+        *{box-sizing:border-box; } <br><br><br>
+
+        <li><strong>
+                Kutu Arkaplan Rengi ve Resmi
+            </strong></li>
+        <p>Kutuların Arkaplanı için background özelliği kullanılır.</p><br>
+        <div class="arkaplan">
+            p{<br>
+            background-color:yellow;<br>
+            background-image:url(/resimler/resim.jpg);<br>
+            width:400px; <br>
+            Border-style:inset;(gölgeli çizgi) <br>
+            border-width;10px;(çizgi kalınlığı) <br>
+            background-size: arkaplan resminin boyutunu değiştirir.
+
+            }
+        </div>
+
+
+
 
 
     </ul>
